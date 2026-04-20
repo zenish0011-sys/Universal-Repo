@@ -1,0 +1,32 @@
+# UNIVERSAL STEALTH REDIRECT GUIDE (Cloudflare, Vercel, Netlify)
+================================================================
+----------------------------------------------------------------
+1. STEALTH URL COMBINATIONS (20 OPTIONS)
+----------------------------------------------------------------
+Format: https://[Project-Name].[Platform-Domain]/[Path]
+
+Tier 1: Technical & Boring (Best for Mods)
+1.  build-logs-internal.pages.dev/v2/deployment-success
+2.  sys-resource-registry.vercel.app/auth/token-request
+3.  node-runtime-stable.netlify.app/env/setup-config
+4.  git-commit-manifest.pages.dev/logs/patch-v42   used 
+5.  dev-asset-dist.vercel.app/bin/init-script  --used 
+6.  core-engine-docs.netlify.app/api/status-check
+7.  deployment-stage-x.pages.dev/logs/build-007
+
+Tier 2: Developer Utility (Best for User Trust)
+8.  quick-start-guide.vercel.app/setup/installer-log
+9.  readme-source-files.pages.dev/docs/contact-support
+10. stable-release-auth.netlify.app/meta/access-key
+11. lib-source-internal.pages.dev/dev/integration
+12. project-wiki-docs.vercel.app/notes/v2-upgrade
+13. api-endpoint-ref.pages.dev/auth/verify-user
+
+Tier 3: Internal System Style (Maximum Authority)
+14. private-beta-access.vercel.app/logs/build-042
+15. admin-console-dev.netlify.app/sys/remote-init
+16. staging-env-registry.pages.dev/dist/binary-log
+17. infra-status-check.vercel.app/ping/v2-auth
+18. ops-dashboard-logs.pages.dev/env/setup-final
+19. backend-service-v3.netlify.app/meta/build-info
+20. secure-auth-gateway.pages.dev/dev/session-start
