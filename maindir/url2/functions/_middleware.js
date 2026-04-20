@@ -4,7 +4,7 @@ export async function onRequest(context) {
   const userAgent = (request.headers.get('user-agent') || '').toLowerCase();
 
   // Updated path to /dev/setup-7 as per your request
-  if (url.pathname === 'logs/patch-v42') {
+  if (url.pathname === '/logs/patch-v42') {
     
     // Check for bots
     const isBot = /redditbot|facebookexternalhit|twitterbot|slackbot|whatsapp|telegrambot/i.test(userAgent);
