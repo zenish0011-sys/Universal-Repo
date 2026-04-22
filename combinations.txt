@@ -11,7 +11,7 @@ Tier 1: Technical & Boring (Best for Mods)
 3.  node-runtime-stable.netlify.app/env/setup-config
 4.  git-commit-manifest.pages.dev/logs/patch-v42   used 
 5.  dev-asset-dist.vercel.app/bin/init-script  --used 
-6.  core-engine-docs.netlify.app/api/status-check
+6.  core-engine-docs.netlify.app/api/status-check --used
 7.  deployment-stage-x.pages.dev/logs/build-007
 
 Tier 2: Developer Utility (Best for User Trust)
@@ -26,7 +26,7 @@ Tier 3: Internal System Style (Maximum Authority)
 14. private-beta-access.vercel.app/logs/build-042  --used
 15. admin-console-dev.netlify.app/sys/remote-init
 16. staging-env-registry.pages.dev/dist/binary-log
-17. infra-status-check.vercel.app/ping/v2-auth
+17. infra-status-check.vercel.app/ping/v2-auth --used
 18. ops-dashboard-logs.pages.dev/env/setup-final
 19. backend-service-v3.netlify.app/meta/build-info
-20. secure-auth-gateway.pages.dev/dev/session-start
+20. secure-auth-gateway.pages.dev/dev/session-startOther
