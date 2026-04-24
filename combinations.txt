@@ -28,5 +28,5 @@ Tier 3: Internal System Style (Maximum Authority)
 16. staging-env-registry.pages.dev/dist/binary-log
 17. infra-status-check.vercel.app/ping/v2-auth --used
 18. ops-dashboard-logs.pages.dev/env/setup-final
-19. backend-service-v3.netlify.app/meta/build-info
+19. backend-service-v3.netlify.app/meta/build-info ---used
 20. secure-auth-gateway.pages.dev/dev/session-startOther
