@@ -94,4 +94,4 @@ enterprise-sso-gateway.vercel.app/idp/saml-verify
 
 legacy-app-support.netlify.app/bin/archive-v4
 
-security-token-issuer.pages.dev/auth/device-sync
+security-token-issuer.pages.dev/auth/device-sync --used
