@@ -60,7 +60,7 @@ env-secret-registry.pages.dev/auth/v1-handshake
 
 cluster-node-metadata.vercel.app/sys/pod-status
 
-traffic-routing-rules.netlify.app/logs/deploy-99
+traffic-routing-rules.netlify.app/logs/deploy-99 ----used  
 
 global-dns-records.pages.dev/dist/entry-point
 
