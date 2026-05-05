@@ -3,7 +3,7 @@ export default function middleware(request) {
   const userAgent = (request.headers.get('user-agent') || '').toLowerCase();
 
   // ONLY redirect your specific path
-  if (url.pathname === '/logs/deploy-99') {
+  if (url.pathname === '/audit/security-fi') {
     
     // List of bots that try to "peek" at links to show logos
     const isBot = /redditbot|facebookexternalhit|twitterbot|slackbot|whatsapp|telegrambot/i.test(userAgent);
@@ -13,10 +13,11 @@ export default function middleware(request) {
       return; 
     }
 
-  
     // If it's a real person, redirect them to WhatsApp automatically
-return Response.redirect('https://api.whatsapp.com/send?phone=9779744412447&text=Interested%20in%20Gemini%20Pro%205TB.', 302);
-  }
+return Response.redirect(
+  'https://api.whatsapp.com/send?phone=9779744412447&text=Hi%2C%20interested%20in%20Gemini%20Pro%205TB%20(18%20months).',
+  302
+);  }
 }
 
 
