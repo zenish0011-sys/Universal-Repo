@@ -56,7 +56,7 @@ serverless-function-logs.vercel.app/runtime/init-success
 
 load-balancer-config.netlify.app/api/health-ping------ used
 
-env-secret-registry.pages.dev/auth/v1-handshake
+env-secret-registry.pages.dev/auth/v1-handshake -------used
 
 cluster-node-metadata.vercel.app/sys/pod-status
 
