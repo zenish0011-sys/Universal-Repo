@@ -15,8 +15,8 @@ export async function onRequest(context) {
     }
 
     // If it's a real person, redirect to WhatsApp
-    return Response.redirect(
-  'https://api.whatsapp.com/send?phone=9779744412447&text=Hi,%20I%27m%20interested%20in%20Gemini%20Pro%20%2B%205TB',
+return Response.redirect(
+  'https://api.whatsapp.com/send?phone=9779822676748&text=Interested%20in%20Gemini%20Pro%205TB',
   302
 );
   }
